@@ -1,0 +1,38 @@
+{
+    "components": [
+        {
+            "name": "spark2\n",
+            "pkg_release": "na\n",
+            "pkg_version": "na\n",
+            "version": "2.1.0.cloudera2\n"
+        }
+    ],
+    "depends": "CDH (>= 5.7), CDH (<< 6)",
+    "extraVersionInfo": {
+        "baseVersion": "cdh5.7.0",
+        "patchCount": "0"
+    },
+    "groups": [
+        "spark"
+    ],
+    "name": "SPARK2",
+    "packages": [],
+    "provides": [
+        "spark2"
+    ],
+    "replaces": "SPARK",
+    "schema_version": 1,
+    "scripts": {
+        "defines": "spark2_env.sh"
+    },
+    "setActiveSymlink": true,
+    "users": {
+        "spark": {
+            "extra_groups": [],
+            "home": "/var/lib/spark",
+            "longname": "Spark",
+            "shell": "/sbin/nologin"
+        }
+    },
+    "version": "2.1.0.cloudera2-1.cdh5.7.0.p0.171658"
+}

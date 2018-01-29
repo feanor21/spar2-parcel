@@ -1,0 +1,3 @@
+#!/bin/bash
+CDH_DIRNAME=${PARCEL_DIRNAME:-"SPARK2-2.1.0.cloudera2-1.cdh5.7.0.p0.171658"}
+export CDH_SPARK2_HOME=$PARCELS_ROOT/$CDH_DIRNAME/lib/spark2

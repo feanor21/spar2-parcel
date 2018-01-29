@@ -1,0 +1,26 @@
+{
+    "pyspark2": {
+        "destination": "/usr/bin/pyspark2",
+        "isDirectory": false,
+        "priority": 10,
+        "source": "bin/pyspark2"
+    },
+    "spark2-conf": {
+        "destination": "/etc/spark2/conf",
+        "isDirectory": true,
+        "priority": 10,
+        "source": "etc/spark2/conf.dist"
+    },
+    "spark2-shell": {
+        "destination": "/usr/bin/spark2-shell",
+        "isDirectory": false,
+        "priority": 10,
+        "source": "bin/spark2-shell"
+    },
+    "spark2-submit": {
+        "destination": "/usr/bin/spark2-submit",
+        "isDirectory": false,
+        "priority": 10,
+        "source": "bin/spark2-submit"
+    }
+}
